@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PhamMinhTuan_231230946_de02
 build_property.RootNamespace = PhamMinhTuan_231230946_de02
@@ -18,12 +26,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\VS\PhamMinhTuan_231230946_de02\PhamMinhTuan_231230946_de02
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/PmtCatalogs/PmtCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG10Q2F0YWxvZ3NcUG10Q3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/PmtCatalogs/PmtDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG10Q2F0YWxvZ3NcUG10RGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/PmtCatalogs/PmtDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG10Q2F0YWxvZ3NcUG10RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/PmtCatalogs/PmtEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG10Q2F0YWxvZ3NcUG10RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/PmtCatalogs/PmtIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG10Q2F0YWxvZ3NcUG10SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/PmtHome/PmtAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG10SG9tZVxQbXRBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/PmtHome/PmtIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG10SG9tZVxQbXRJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/PmtHome/PmtPrivacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG10SG9tZVxQbXRQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/Shared/Error.cshtml]
@@ -42,6 +74,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-1wuqou887z
+[C:/Users/Admin/Desktop/VS/PhamMinhTuan_231230946_de02/PhamMinhTuan_231230946_de02/Views/Shared/_PmtLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QbXRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-em2qz034wy

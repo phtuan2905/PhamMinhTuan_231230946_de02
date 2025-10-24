@@ -1,0 +1,99 @@
+﻿@model IEnumerable<PhamMinhTuan_231230946_de02.Models.PmtCatalog>
+
+@{
+    ViewData["Title"] = "Danh sách PmtCatalog";
+}
+
+<div class="container my-4">
+    <h1 class="text-center mb-4 text-primary">Danh sách PmtCatalog</h1>
+
+    <p class="text-end">
+        <a asp-action="PmtCreate" class="btn btn-success">
+            <i class="fa fa-plus"></i> Thêm mới
+        </a>
+    </p>
+
+    <table class="table table-hover table-bordered align-middle shadow-sm">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.PmtCateName)</th>
+                <th>@Html.DisplayNameFor(model => model.PmtCatePrice)</th>
+                <th>@Html.DisplayNameFor(model => model.PmtCateQty)</th>
+                <th>@Html.DisplayNameFor(model => model.PmtPicture)</th>
+                <th>@Html.DisplayNameFor(model => model.PmtCateActive)</th>
+                <th>Thành tiền</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                var thanhTien = item.PmtCatePrice * item.PmtCateQty;
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.PmtCateName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PmtCatePrice)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PmtCateQty)</td>
+                        <td>
+                        @if (!string.IsNullOrEmpty(item.PmtPicture))
+                        {
+                                    <img src="@item.PmtPicture" alt="@item.PmtCateName"
+                                         style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px;">
+                        }
+                        else
+                        {
+                                    <span class="text-muted fst-italic">Không có ảnh</span>
+                        }
+                        </td>
+                        <td>
+                        @if (item.PmtCateActive == true)
+                        {
+                                    <span class="badge bg-success">Active</span>
+                        }
+                        else
+                        {
+                                    <span class="badge bg-secondary">Non-Active</span>
+                        }
+                        </td>
+                        <td class="text-end text-success fw-bold">@thanhTien.ToString() ₫</td>
+                        <td class="text-center">
+                            <a asp-action="PmtDetails" asp-route-id="@item.PmtId" class="btn btn-sm btn-info me-1 text-white">
+                                <i class="fa fa-info-circle"></i> Xem
+                            </a>
+                            <a asp-action="PmtEdit" asp-route-id="@item.PmtId" class="btn btn-sm btn-warning me-1">
+                            <i class="fa fa-edit"></i> Sửa
+                        </a>
+                            <a asp-action="PmtDelete" asp-route-id="@item.PmtId" class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i> Xóa
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .table {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+img {
+    transition: transform 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+</style>

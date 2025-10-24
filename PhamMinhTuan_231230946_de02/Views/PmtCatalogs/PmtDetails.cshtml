@@ -1,0 +1,48 @@
+﻿@model PhamMinhTuan_231230946_de02.Models.PmtCatalog
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>PmtDetails</h1>
+
+<div>
+    <h4>PmtCatalog</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PmtCateName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PmtCateName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PmtCatePrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PmtCatePrice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PmtCateQty)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PmtCateQty)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PmtPicture)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PmtPicture)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PmtCateActive)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PmtCateActive)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PmtId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
